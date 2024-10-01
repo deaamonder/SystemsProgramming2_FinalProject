@@ -3,6 +3,7 @@
 #include "GameLogic.hpp"
 #include "Player.hpp"
 #include "Property.hpp"
+#include "Card.hpp"
 
 using namespace std;
 
@@ -17,6 +18,7 @@ int main(){
 
     GameLogic game(numOfPlayers);
     game.startGame();
+    
 
     return 0;
 }
